@@ -12,7 +12,7 @@ const bird = new Bird();
 ### Log in
 
 ```javascript
-bird.login();
+bird.login(email = faker.internet.email());
 ```
 
 ### Get profile
