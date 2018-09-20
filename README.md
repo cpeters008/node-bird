@@ -15,6 +15,12 @@ const bird = new Bird();
 bird.login();
 ```
 
+### Get profile
+
+```javascript
+bird.getProfile()
+```
+
 ### Get Scooters Nearby
 
 ```javascript
