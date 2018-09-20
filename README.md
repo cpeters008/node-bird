@@ -70,3 +70,9 @@ bird.setScooterAlarm(scooterId);
 ```javascript
 bird.setScooterMissing(scooterId);
 ```
+
+### Set voucher code
+
+```javascript
+bird.setVoucherCode(code);
+```
