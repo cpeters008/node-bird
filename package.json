@@ -1,0 +1,15 @@
+{
+  "name": "node-bird",
+  "version": "1.0.0",
+  "description": "Api Wrapper for Bird scooters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "faker": "^4.1.0"
+  }
+}
