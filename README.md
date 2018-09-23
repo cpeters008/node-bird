@@ -71,8 +71,14 @@ bird.setScooterAlarm(scooterId);
 bird.setScooterMissing(scooterId);
 ```
 
-### Set voucher code
+### Add voucher code
 
 ```javascript
-bird.setVoucherCode(code);
+bird.addVoucherCode(code);
+```
+
+### Add card registered with Stripe to account
+
+```javascript
+bird.addCardFromStripe(stripeToken, { latitude = faker.address.latitude(), longitude = faker.address.longitude() });
 ```

@@ -2,3 +2,5 @@ node_modules
 .vscode
 .DS_Store
 test.js
+example/config.json
+example/stripe.js

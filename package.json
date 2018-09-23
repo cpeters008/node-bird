@@ -1,6 +1,6 @@
 {
   "name": "node-bird",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Api Wrapper for Bird scooters",
   "main": "index.js",
   "scripts": {
