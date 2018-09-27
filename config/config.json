@@ -1,0 +1,11 @@
+{
+  "stripeToken": "pk_live_mwTRv447YpHB62e5BHCbcJoc",
+  "card": {
+    "cardNumber": "",
+    "cardCvc": "",
+    "expMonth": "",
+    "expYear": ""
+  },
+  "voucherCode": "",
+  "birdId": ""
+}
