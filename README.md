@@ -47,6 +47,12 @@ bird.getProfile();
 bird.updateProfile(profile);
 ```
 
+### Add voucher code
+
+```javascript
+bird.addVoucherCode(code);
+```
+
 ### Get Scooters Nearby
 
 ```javascript
@@ -57,6 +63,7 @@ bird.getScootersNearby(latitude, longitude, (radius = 500));
 
 ```javascript
 bird.getScooterDetails(scooterId);
+scooterId is not scooterCode
 ```
 
 ### Set alarm for a scooter
@@ -71,14 +78,42 @@ bird.setScooterAlarm(scooterId);
 bird.setScooterMissing(scooterId);
 ```
 
-### Add voucher code
+### Scan scooter
 
 ```javascript
-bird.addVoucherCode(code);
+bird.scanScooter(scooter);
+scooter can be fetched from getScootersNearby array, or from getScooterDetails if you already know scooterId
+```
+
+### Ride scooter
+
+```javascript
+bird.rideScooter(scooter);
+scooter can be fetched from getScootersNearby array
+```
+
+### Stop ride
+
+```javascript
+bird.stopRide(scooter, ride);
+scooter can be fetched from getScootersNearby array
+ride is returned from rideScooter method
 ```
 
 ### Add card registered with Stripe to account
 
 ```javascript
 bird.addCardFromStripe(stripeToken, { latitude = faker.address.latitude(), longitude = faker.address.longitude() });
+```
+
+### Get Stripe Customer
+
+```javascript
+bird.getStripeCustomer();
+```
+
+### Set card as default source in your Bird account
+
+```javascript
+bird.setCardAsDefault(cardId, latitude = faker.address.latitude(), longitude = faker.address.longitude() });
 ```
