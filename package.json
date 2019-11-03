@@ -9,7 +9,7 @@
   "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "faker": "^4.1.0",
